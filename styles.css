@@ -1,22 +1,22 @@
 :root {
   --ink: #0a0a0a;
-  --muted: #525252;
-  --paper: #fafafa;
-  --bone: #f5f5f5;
-  --line: #d4d4d4;
+  --muted: #5b5549;
+  --paper: #fbf7ef;
+  --bone: #f2eadc;
+  --line: #cdbf9f;
   --olive: #0a0a0a;
-  --wine: #ef4444;
-  --gold: #ef4444;
-  --navy: #12355b;
-  --teal: #1b6b5f;
-  --mustard: #d49a2a;
-  --plum: #6d2448;
-  --cream: #fff3d6;
-  --bluewash: #e7f0ff;
-  --greenwash: #e6f4ef;
-  --rosewash: #fff0f0;
+  --wine: #b8872d;
+  --gold: #d7ad43;
+  --navy: #151515;
+  --teal: #27584c;
+  --mustard: #c89632;
+  --plum: #241f1a;
+  --cream: #fff4d4;
+  --bluewash: #eee4d2;
+  --greenwash: #e8eee2;
+  --rosewash: #f6ecd9;
   --white: #fafafa;
-  --raised: #e5e5e5;
+  --raised: #efe4d0;
   --shadow: none;
 }
 
@@ -103,7 +103,7 @@ nav a,
 }
 
 nav a:hover {
-  color: var(--wine);
+  color: var(--gold);
 }
 
 .header-action {
@@ -120,9 +120,9 @@ nav a:hover {
 }
 
 .header-action:hover {
-  background: var(--wine);
-  border-color: var(--wine);
-  color: var(--white);
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--ink);
 }
 
 .hero {
@@ -147,7 +147,7 @@ nav a:hover {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(18, 53, 91, 0.82), rgba(109, 36, 72, 0.54) 55%, rgba(10, 10, 10, 0.42)),
+    linear-gradient(90deg, rgba(10, 10, 10, 0.86), rgba(75, 58, 31, 0.58) 55%, rgba(10, 10, 10, 0.48)),
     linear-gradient(0deg, rgba(10, 10, 10, 0.72), rgba(10, 10, 10, 0.12) 52%);
 }
 
@@ -230,8 +230,8 @@ button {
 
 .button.primary,
 button {
-  color: var(--white);
-  background: var(--navy);
+  color: var(--ink);
+  background: var(--gold);
 }
 
 .button.secondary {
@@ -242,9 +242,9 @@ button {
 
 .button:hover,
 button:hover {
-  color: var(--white);
-  background: var(--wine);
-  border-color: var(--wine);
+  color: var(--ink);
+  background: var(--cream);
+  border-color: var(--gold);
   filter: none;
 }
 
@@ -268,7 +268,7 @@ button:hover {
 
 .intro span {
   display: block;
-  color: var(--navy);
+  color: var(--ink);
   font-family: "Archivo Black", Impact, "Arial Black", sans-serif;
   font-size: clamp(2rem, 4.4vw, 4.2rem);
   line-height: 1;
@@ -366,7 +366,7 @@ button:hover {
   grid-template-columns: minmax(0, 0.96fr) minmax(280px, 1.04fr);
   gap: clamp(28px, 6vw, 76px);
   align-items: center;
-  background: linear-gradient(135deg, var(--cream) 0 50%, var(--bluewash) 50% 100%);
+  background: linear-gradient(135deg, var(--cream) 0 50%, var(--bone) 50% 100%);
   border-top: 3px solid var(--ink);
   border-bottom: 3px solid var(--ink);
 }
@@ -407,7 +407,7 @@ button:hover {
 
 .catalog-link {
   color: var(--ink);
-  background: transparent;
+  background: var(--paper);
   border-color: var(--ink);
 }
 
@@ -431,7 +431,7 @@ button:hover {
 }
 
 .suits {
-  background: linear-gradient(135deg, var(--navy) 0%, var(--ink) 52%, var(--plum) 100%);
+  background: linear-gradient(135deg, #18130d 0%, var(--ink) 58%, #2b2114 100%);
   color: var(--white);
   border-bottom: 3px solid var(--ink);
 }
@@ -467,7 +467,7 @@ button:hover {
 .product-row span {
   display: inline-block;
   margin-top: 12px;
-  color: var(--wine);
+  color: var(--teal);
   font-weight: 900;
 }
 
@@ -476,7 +476,7 @@ button:hover {
   grid-template-columns: minmax(0, 0.9fr) minmax(300px, 500px);
   gap: clamp(28px, 6vw, 72px);
   align-items: start;
-  background: linear-gradient(90deg, var(--paper), var(--rosewash));
+  background: linear-gradient(90deg, var(--paper), var(--bone));
 }
 
 .visit-card {
@@ -578,7 +578,7 @@ button:hover {
 .site-footer {
   justify-content: space-between;
   color: var(--white);
-  background: linear-gradient(90deg, var(--ink), var(--navy));
+  background: linear-gradient(90deg, var(--ink), #20180f);
   border-top: 3px solid var(--ink);
 }
 
