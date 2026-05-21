@@ -590,6 +590,18 @@ button:hover {
   font-size: 1.08rem;
 }
 
+.find-us .button.primary {
+  color: var(--white);
+  background: var(--ink);
+  border-color: var(--ink);
+}
+
+.find-us .button.primary:hover {
+  color: var(--ink);
+  background: var(--gold);
+  border-color: var(--gold);
+}
+
 .map-panel {
   min-height: 360px;
   overflow: hidden;
