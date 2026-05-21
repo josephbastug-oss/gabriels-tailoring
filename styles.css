@@ -551,7 +551,7 @@ button:hover {
 
 .faq-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 0;
   border: 2px solid var(--line);
   background: var(--paper);
@@ -564,11 +564,11 @@ button:hover {
   border-bottom: 2px solid var(--line);
 }
 
-.faq-grid article:nth-child(3n) {
+.faq-grid article:nth-child(4n) {
   border-right: 0;
 }
 
-.faq-grid article:nth-last-child(-n + 3) {
+.faq-grid article:nth-last-child(-n + 4) {
   border-bottom: 0;
 }
 
@@ -690,11 +690,11 @@ button:hover {
     min-height: auto;
   }
 
-  .faq-grid article:nth-child(3n) {
+  .faq-grid article:nth-child(4n) {
     border-right: 0;
   }
 
-  .faq-grid article:nth-last-child(-n + 3) {
+  .faq-grid article:nth-last-child(-n + 4) {
     border-bottom: 2px solid var(--line);
   }
 
